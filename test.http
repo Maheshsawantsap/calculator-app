@@ -1,0 +1,12 @@
+POST http://localhost:4004/odata/v4/calculator/Calculations
+Content-Type: application/json
+
+{"ID": 202,value1": 30,"value2": 2,"operator": "add"}
+
+#############
+# Get request
+GET http://localhost:4004/odata/v4/calculator/Calculations
+
+#############
+# Get request
+GET http://localhost:4004/odata/v4/calculator/Calculations(2)
